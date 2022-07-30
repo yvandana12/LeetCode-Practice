@@ -19,7 +19,7 @@ public:
             {
                 ans=ans+mp[rem_sum];
             }
-            mp[sum]=max(mp[sum],0)+1;
+            mp[sum]=mp[sum]+1;
         }
         return ans;
     }
